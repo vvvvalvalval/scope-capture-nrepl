@@ -48,7 +48,7 @@ Assume you placed a `sc.api/spy` (or `sc.api/brk`) call in the following code:
 You ran it and got an Execution Point with id `7`:
 
 ```clojure 
-foo 2 23)
+(foo 2 23)
 ;SPY [7 -3] /home/me/myapp/src/myapp/myns.clj:4 
 ;  At Execution Point 7 of Code Site -3, saved scope with locals [x y z]
 ;SPY [7 -3] /home/me/myapp/src/myapp/myns.clj:4 
