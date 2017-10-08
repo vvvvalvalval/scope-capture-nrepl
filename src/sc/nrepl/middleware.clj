@@ -1,6 +1,7 @@
 (ns sc.nrepl.middleware
   (:require [clojure.tools.nrepl.middleware :as nrm]
-            [sc.nrepl.impl :as i]))
+            [sc.nrepl.impl :as i]
+            [sc.nrepl.repl]))
 
 (defn wrap-letsc
   [handler]

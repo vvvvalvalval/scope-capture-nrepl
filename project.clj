@@ -1,4 +1,4 @@
-(defproject vvvvalvalval/scope-capture-nrepl "0.1.0"
+(defproject vvvvalvalval/scope-capture-nrepl "0.2.0"
   :description "nREPL middleware for scope-capture"
   :url "https://github.com/vvvvalvalval/scope-capture-nrepl"
   :license {:name "MIT"

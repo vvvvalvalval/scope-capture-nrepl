@@ -18,7 +18,7 @@ Add the following to your project.clj file (potentially in a development profile
 ```clojure
   :dependencies 
   [... ;; you probably have other dependencies 
-   [vvvvalvalval/scope-capture-nrepl "0.1.0"]]
+   [vvvvalvalval/scope-capture-nrepl "0.2.0"]]
   :repl-options
   {:nrepl-middleware
    [... ;; you may have other nREPL middleware 
@@ -26,12 +26,6 @@ Add the following to your project.clj file (potentially in a development profile
 ```
 
 ## Usage
-
-Make sure `sc.nrepl.repl` is loaded:
-
-```clojure
-(require 'sc.nrepl.repl)
-```
 
 Assume you placed a `sc.api/spy` (or `sc.api/brk`) call in the following code:
 

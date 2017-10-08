@@ -3,6 +3,10 @@ All notable changes to this project will be documented in this file. This change
 
 ## [Unreleased]
 
+## 0.2.0 - 2017-10-08
+### Added
+- For convenience, `sc.nrepl.repl` is now required by `sc.nrepl.middleware`
+
 ## 0.1.0 - 2017-10-08
 ### Added
 - Files from the new template.
