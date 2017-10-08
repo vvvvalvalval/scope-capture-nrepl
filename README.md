@@ -1,5 +1,7 @@
 # scope-capture-nrepl
 
+[![Clojars Project](https://img.shields.io/clojars/v/vvvvalvalval/scope-capture-nrepl.svg)](https://clojars.org/vvvvalvalval/scope-capture-nrepl)
+
 A companion library to [scope-capture](https://github.com/vvvvalvalval/scope-capture), providing an nREPL middleware that lets you put your REPL in the context of an Execution Point (via `sc.api/letsc`). 
 
 Project status: alpha quality. Tested empirically on Cursive. OTOH, this is typically only used in development,
