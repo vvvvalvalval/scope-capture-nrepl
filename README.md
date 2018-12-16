@@ -75,7 +75,7 @@ z
 
 This is achieved by wrapping each code expression to evaluate (via the 'eval' and 'load-file' nREPL ops) with `(sc.api/letsc <<ep-id>> <<expr>>)`.
 
-Some the semantics are exactly those of `sc.api/letsc`, you just don't get the tedium of writing them manually.
+So the semantics are exactly those of `sc.api/letsc`, you just don't get the tedium of writing them manually.
 
 Once you're done with that Execution Point, you put your REPL back in a normal state by using `sc.nrepl.repl/exit`:
 
