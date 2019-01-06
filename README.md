@@ -7,6 +7,9 @@ A companion library to [scope-capture](https://github.com/vvvvalvalval/scope-cap
 Project status: alpha quality. Tested empirically on Cursive. OTOH, this is typically only used in development,
  and for most purposes you can just falling back to using the raw API of scope-capture.
 
+**NOTE:** this middleware is only suitable for programs where the REPL and the nREPL middleware run in the same process 
+ (typically JVM Clojure, typically not JVM-compiled ClojureScript.)
+
 ## Installation
 
 This library exposes an [nREPL middleware](https://nrepl.org/nrepl/design/middleware.html) in the Var `sc.nrepl.middleware/wrap-letsc`.
