@@ -3,6 +3,7 @@ All notable changes to this project will be documented in this file. This change
 
 ## [Unreleased]
 
+## 0.3.0 - 2017-10-08
 ### Added
 - Support for newer nrepl 0.5.3 while preserving compatibility with tools.nrepl.
 
@@ -21,4 +22,4 @@ All notable changes to this project will be documented in this file. This change
 - README
 - basic example tests
 
-[Unreleased]: https://github.com/your-name/scope-capture-nrepl/compare/0.1.0...HEAD
+[Unreleased]: https://github.com/your-name/scope-capture-nrepl/compare/0.3.0...HEAD
