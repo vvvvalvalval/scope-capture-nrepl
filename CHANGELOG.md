@@ -3,6 +3,12 @@ All notable changes to this project will be documented in this file. This change
 
 ## [Unreleased]
 
+### Added
+- Support for newer nrepl 0.5.3 while preserving compatibility with tools.nrepl.
+
+### Changed
+- moved nrepl deps to provided profile - users must now explicitly state their nrepl dependency.
+
 ## 0.2.0 - 2017-10-08
 ### Added
 - For convenience, `sc.nrepl.repl` is now required by `sc.nrepl.middleware`

@@ -9,7 +9,28 @@ Project status: alpha quality. Tested empirically on Cursive. OTOH, this is typi
 
 ## Installation
 
-This library exposes an [nREPL middleware](https://github.com/clojure/tools.nrepl#middleware) at `sc.nrepl.middleware/wrap-letsc`. 
+This library exposes an [nREPL middleware](https://nrepl.org/nrepl/design/middleware.html) in the Var `sc.nrepl.middleware/wrap-letsc`.
+
+It works with both the [nREPL](https://nrepl.org/nrepl/index.html) library and the older [tools.nrepl](https://github.com/clojure/tools.nrepl):
+ you must provide these dependencies separately.
+
+#### Via deps.edn
+
+You need to declare dependencies both to this library and to nREPL itself.
+ You'll typically want to put them in a custom profile, as [recommended](https://nrepl.org/nrepl/usage/server.html#_using_clojure_cli_tools) by the nREPL documentation:
+
+```clojure
+;; in your deps.edn file:
+{
+ ;; [...]
+ :aliases
+ {
+  ;; [...]
+  :nREPL
+  {:extra-deps
+   {nrepl/nrepl {:mvn/version "0.5.3"}
+    vvvvalvalval/scope-capture-nrepl {:mvn/version "0.2.0"}}}}}
+```
 
 #### Via Leiningen 
 
