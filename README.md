@@ -32,7 +32,7 @@ You need to declare dependencies both to this library and to nREPL itself.
   :nREPL
   {:extra-deps
    {nrepl/nrepl {:mvn/version "0.5.3"}
-    vvvvalvalval/scope-capture-nrepl {:mvn/version "0.3.0"}}}}}
+    vvvvalvalval/scope-capture-nrepl {:mvn/version "0.3.1"}}}}}
 ```
 
 #### Via Leiningen 
@@ -42,7 +42,7 @@ Add the following to your project.clj file (potentially in a development profile
 ```clojure
   :dependencies 
   [... ;; you probably have other dependencies 
-   [vvvvalvalval/scope-capture-nrepl "0.3.0"]]
+   [vvvvalvalval/scope-capture-nrepl "0.3.1"]]
   :repl-options
   {:nrepl-middleware
    [... ;; you may have other nREPL middleware 
