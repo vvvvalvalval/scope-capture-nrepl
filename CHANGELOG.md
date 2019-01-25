@@ -5,6 +5,8 @@ All notable changes to this project will be documented in this file. This change
 
 ## 0.3.0 - 2017-10-08
 ### Added
+- in-ep checks for existence of the Execution Point.
+- requires scope-capture 0.3.2
 - Support for newer nrepl 0.5.3 while preserving compatibility with tools.nrepl.
 
 ### Changed

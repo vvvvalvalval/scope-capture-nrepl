@@ -7,4 +7,7 @@
                  [vvvvalvalval/scope-capture "0.3.2"]]
 
   :profiles {:provided {:dependencies [[org.clojure/tools.nrepl "0.2.12"]
-                                       [nrepl/nrepl "0.5.3"]]}})
+                                       [nrepl/nrepl "0.5.3"]]}
+             :dev {:repl-options
+                   {:nrepl-middleware
+                    [sc.nrepl.middleware/wrap-letsc]}}})
